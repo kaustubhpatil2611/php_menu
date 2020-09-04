@@ -24,7 +24,7 @@ class Restaurant{
     }
 
     public function getDetails($name){
-        $block=["In-Valid PRN"];
+        $block=["In-Valid item"];
         if($name) {
             
             foreach ($this->menuDetailList as $detail) {
